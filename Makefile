@@ -5,7 +5,7 @@ down:
 	docker-compose down
 
 exec:
-	docker exec -it ecoproject_app bash
+	docker exec -it test_app bash
 
 f:
 	php artisan migrate:fresh --seed
